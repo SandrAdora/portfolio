@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60">
+  <!-- LinkedIn "in" icon -->
+  <rect x="0" y="5" width="50" height="50" rx="6" ry="6" fill="#0A66C2"/>
+  <text x="9" y="43" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#ffffff">in</text>
+
+  <!-- LinkedIn text -->
+  <text x="60" y="30" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#0A66C2">LinkedIn</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="34" x2="175" y2="34" stroke="#0A66C2" stroke-width="1"/>
+
+  <!-- Learning text -->
+  <text x="60" y="50" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#0A66C2" letter-spacing="2">Learning</text>
+</svg>

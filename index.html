@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" 
+              content="width=device-width, 
+                    initial-scale=1.0, initial-scale=1.0 , user-scalable=yes"> 
+        <!--Add an icon to the browser tab for my website-->
+        <link rel="icon" href="/assets/logo-se.svg" type="image/svg+xml" sizes="any">
+        
+        <!--connecting google styles to html file-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--bitcount ink style-->
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght,CRSV@100..900,0..1&family=Bitcount+Ink:slnt,CRSV@-8,1&display=swap" rel="stylesheet" >
+        <!--saira stencil style-->
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2" crossorigin>
+        <title>Sandra - App-Entwicklerin | Portfolio</title>
+        
+    </head> 
+    <body class="main-body">
+        <!--navbar with responsive design-->
+        <nav class="navbar-class">
+            <div class="navbar-logo">
+                <span class="img-logo"> <a href="#" target="_blank" >
+                    <img src="/assets/logo-se.svg" alt="logo" width="50px" height="50px" >  
+                </a>
+            </span>
+               
+                <span  class="logo-sandra"> Sandra Edigin</span>
+            </div>
+            <!--hamburger menu for mobile view-->
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+
+            </div>
+            <!--navigation links-->
+                <ul class="nav-links">
+                    <li><a href="#introduction-section" class="nav-link">Über mich</a></li>
+                    <li><a href="#projects-section" class="nav-link">Projekte</a></li>
+                    <li><a href="#skills-section" class="nav-link">Fähigkeiten</a></li>
+                    <li><a href="#certificate-section" class="nav-link">Zertifikate</a></li>
+                    <li><a class="nav-cta-button" href="#contact-section">Stelle Mich Ein</a></li>
+                </ul>
+
+        </nav>
+        <section class="introduction-section" id="introduction-section">
+        <div class="introduction-container" >
+        <h1 class="h1-intro">Hallo, Ich bin die Sandra</h1>
+        <div class="typed-out-containier">
+            <div class="typed-out"> Eine Web & App Entwicklerin </div></div>
+        <p>
+             
+            Ich bin eine leidenschaftliche <strong>Automatisierungsentusiastin</strong>, die es liebt Prozesse zu optimieren und Lösungen für bestehende Probleme zu finden.<br>
+            Ich entwickele gerne effiziente und benutzerfreundliche Software, die sowohl visuell als auch funktional ansprechend ist.<br>
+            Stöbere gerne durch meine Projekte und lass dich von meiner Leidenschaft für Technologie inspirieren!
+            Viel Spaß beim Erkunden meines Portfolios!
+        </p>
+        </div>
+            <div class="introduction-image">
+                <img src="./assets/sandra.png" alt="Sandra's Photo" width="200px">
+                </div>  
+         
+        </section>
+
+        <section class="projects-section" id="projects-section">
+            <div class="project-container">
+                <h2>Meine Projekte</h2>
+                <div class="carousel-wrapper">
+                    <button class="carousel-btn carousel-btn--left" aria-label="Vorherige Projekte">&#8249;</button>
+                    <div class="carousel-track-container">
+                        <div class="carousel-track">
+
+                            <div class="project-card">
+                                <div class="card-image-wrapper">
+                                    <img class="card-img card-img--a" src="./assets/ironbuddy.png" alt="IronBuddy App Lightmode">
+                                    <img class="card-img card-img--b" src="./assets/ironbuddyB.png" alt="IronBuddy App Darkmode">
+                                    <div class="card-overlay">
+                                        <p>IronBuddy ist eine AI-unterstützte Fitness-App, die personalisierte Trainingspläne erstellt, Fortschritte verfolgt und soziale Kontakte ermöglicht.</p>
+                                        <div class="card-links">
+                                            <a href="https://github.com/SandrAdora/ironbuddy" target="_blank">GitHub</a>
+                                            <a href="https://ironbuddy-1.onrender.com" target="_blank">Live Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3>IronBuddy</h3>
+                                    <div class="project-tags">
+                                        <span class="tag">React</span>
+                                        <span class="tag">Python</span>
+                                        <span class="tag">Django</span>
+                                        <span class="tag">PostgreSQL</span>
+                                        <span class="tag">AI</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="card-image-wrapper">
+                                    <img class="card-img card-img--a" src="./assets/h_h.png" alt="Hollywood Hub Initial Design">
+                                    <img class="card-img card-img--b" src="./assets/hollywood_hub_homepage.png" alt="Hollywood Hub App Homepage">
+                                    <div class="card-overlay">
+                                        <p>Holly Wood Hub ist eine Plattform für Filmbegeisterte, um über die neuesten Filmmeldungen, Trailer und Bewertungen zu informieren.</p>
+                                        <div class="card-links">
+                                            <a href="https://github.com/SandrAdora/hollywood_hub" target="_blank">GitHub</a>
+                                            <a href="https://sleepy-royal-slice.anvil.app " target="_blank">Live Demo (möglich nur wenn das Backed läuft)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3>HollyWood Hub</h3>
+                                    <div class="project-tags">
+                                        <span class="tag">Anvil</span>
+                                        <span class="tag">Python</span>
+                                        <span class="tag">FastAPI</span>
+                                        <span class="tag">SQLite</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="card-image-wrapper">
+                                    <img class="card-img card-img--a" src="./assets/pdf.png" alt="PDF 2 Word Converter">
+                                    <img class="card-img card-img--b" src="./assets/pdf.png" alt="PDF 2 Word Converter">
+
+                                    <div class="card-overlay">
+                                        <p>PDF 2 Word Converter ist eine einfache Anwendung, um PDF-Dateien in Word-Dokumente zu konvertieren.</p>
+                                        <div class="card-links">
+                                            <a href="https://github.com/SandrAdora/convertPDF2Word.git" target="_blank">GitHub</a>
+                                            <a href="https://convertpdf2word-2.onrender.com/ " target="_blank">Live Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3>PDF 2 Word Converter</h3>
+                                    <div class="project-tags">
+                                        <span class="tag">Vanilla</span>
+                                        <span class="tag">Python</span>
+                                        <span class="tag">Flask</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="card-image-wrapper">
+                                    <img class="card-img card-img--a" src="./assets/kis-1.png" alt="KIS App Initial Design">
+                                    <img class="card-img card-img--b" src="./assets/kis-2.png" alt="KIS App Initial Design">
+
+                                    <div class="card-overlay">
+                                        <p>Ein Krankenhausinformationssystem zur Verwaltung von Patientendaten.</p>
+                                        <div class="card-links">
+                                            <a href="https://github.com/SandrAdora/kis.git" target="_blank">GitHub</a>
+                                            <a href="https://kis-bnge.onrender.com" target="_blank">Live Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Krankenhausinformationssystem</h3>
+                                    <div class="project-tags">
+                                        <span class="tag">Vanilla</span>
+                                        <span class="tag">Python</span>
+                                        <span class="tag">Django</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="card-image-wrapper">
+                                    <img class="card-img card-img--a" src="./assets/ucar-1.png" alt="UCar App Initial Design">
+                                    <img class="card-img card-img--b" src="./assets/ucar-1.png" alt="UCar App Initial Design">
+
+                                    <div class="card-overlay">
+                                        <p><br>
+                                            Ucar verbindet Privatpersonen, die ihr Fahrzeug selten nutzen, mit denen, die spontan eines benötigen. 
+                                            Eigentümer geben ihre Fahrzeuge für festgelegte Zeiten zur Buchung frei 
+                                            – Mieter reservieren unkompliziert und zahlen nur für die tatsächliche Nutzung.</p>
+                                        <div class="card-links">
+                                            <a href="https://github.com/SandrAdora/ucar.git" target="_blank">GitHub</a>
+                                            <a href="https://ucar-myoj.onrender.com" target="_blank">Live Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3>UCan with UCar </h3>
+                                    <div class="project-tags">
+                                        <span class="tag">Vanilla</span>
+                                        <span class="tag">C++</span>
+                                        <span class="tag">SQLite</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-btn--right" aria-label="Nächste Projekte">&#8250;</button>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+        <section class="skills-section" id="skills-section">
+            <div class="skills-container">
+                <h2>Meine Fähigkeiten</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-category-icon">&#9670;</span>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">HTML &amp; CSS</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:90%; --delay:0.2s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">JavaScript</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:80%; --delay:0.3s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">React</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:75%; --delay:0.4s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">Anvil</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:70%; --delay:0.5s"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-category-icon">&#9670;</span>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">Python</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:85%; --delay:0.2s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">JavaScript</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:80%; --delay:0.3s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">C++</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:65%; --delay:0.4s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">SQL</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:75%; --delay:0.5s"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-category-icon">&#9670;</span>
+                            <h3>Tools &amp; Frameworks</h3>
+                        </div>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">Django, Flask</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:80%; --delay:0.2s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">FastAPI</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:75%; --delay:0.3s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">Git &amp; GitHub</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:90%; --delay:0.4s"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span class="skill-bar-label">VS Code</span>
+                                <div class="skill-bar-track">
+                                    <div class="skill-bar-fill" style="--level:85%; --delay:0.5s"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="certificate-section" id="certificate-section">
+            <div class="certificate-container">
+                <h2>Meine Zertifikate</h2>
+                <div class="certificate-grid">
+
+                <div class="flip-card flip-card--linkedin">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/linkedin-learning.svg" alt="LinkedIn Learning Logo">
+                            <h4>Grundlagen Datenstrukturen</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Implementierung und Anwendung grundlegender Datenstrukturen:</p>
+                            <ul>
+                                <li>Arrays &amp; Listen</li>
+                                <li>Stacks &amp; Queues</li>
+                                <li>Bäume &amp; Graphen</li>
+                            </ul>
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> LinkedIn Learning<br>
+                                <strong>Datum:</strong> 15. Juni 2024<br>
+                                <a class="cert-view-btn" href="./certificates/ds.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card flip-card--linkedin">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/linkedin-learning.svg" alt="LinkedIn Learning Logo">
+                            <h4>Künstliche Intelligenz</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Maschinelles Lernen, neuronale Netze und natürliche Sprachverarbeitung – Grundlagen und Anwendungen der KI.</p>
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> LinkedIn Learning<br>
+                                <strong>Datum:</strong> 15. Juni 2024<br>
+                                <a class="cert-view-btn" href="./certificates/ki.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card flip-card--udemy">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/udemy.svg" alt="Udemy Logo">
+                            <h4>Netzwerke Grundlagen</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Grundlagen der Netzwerktechnologien, Protokolle und Sicherheit.</p>
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> Udemy<br>
+                                <strong>Datum:</strong> 10. November 2025<br>
+                                <a class="cert-view-btn" href="./certificates/ng.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card flip-card--linkedin">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/linkedin-learning.svg" alt="LinkedIn Learning Logo">
+                            <h4>Netzwerk Grundlagen 2</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> LinkedIn Learning<br>
+                                <strong>Datum:</strong> 15. Juni 2024<br>
+                                <a class="cert-view-btn" href="./certificates/ng2.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card flip-card--udemy">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/udemy.svg" alt="Udemy Logo">
+                            <h4>Software Entwicklung</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Von der Anforderungsanalyse über Architektur bis zur Wartung:</p>
+                            <ul>
+                                <li>Softwareentwicklungsprozesse</li>
+                                <li>Softwarearchitektur</li>
+                                <li>Testen &amp; Qualitätssicherung</li>
+                            </ul>
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> Udemy<br>
+                                <strong>Datum:</strong> 08. Januar 2026<br>
+                                <a class="cert-view-btn" href="./certificates/sw.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card flip-card--linkedin">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./certificates/logos/linkedin-learning.svg" alt="LinkedIn Learning Logo">
+                            <h4>Netzwerk – Hardware &amp; Software</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Netzwerktypen, Protokolle und Hardwarekomponenten:</p>
+                            <ul>
+                                <li>LAN, WAN, WLAN</li>
+                                <li>TCP/IP, HTTP, FTP</li>
+                                <li>Router, Switches, Firewalls</li>
+                            </ul>
+                            <div class="cert-meta">
+                                <strong>Aussteller:</strong> LinkedIn Learning<br>
+                                <strong>Datum:</strong> 19. August 2025<br>
+                                <a class="cert-view-btn" href="./certificates/ng2.pdf" target="_blank">Zertifikat ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact-section">
+            <div class="contact-container">
+            <h2>Kontakt</h2>
+            <p>Ich freue mich darauf, von Ihnen zu hören! Sie können gerne das Kontaktformular nutzen, Oder meinen CV herunterladen:</p>
+            <div class="Container-Kontakt-formular">
+                
+            </div>
+            <div class="Container-Kontakt-cv"></div>
+            
+        </section>
+        <footer class="footer">
+            <p>&copy; 2026 Sandra Edigin. Alle Rechte vorbehalten.</p>
+        </footer>
+    </body>
+    <script src="js/navigation.js"></script>
+    <script src="js/carousel.js"></script>
+</html>
