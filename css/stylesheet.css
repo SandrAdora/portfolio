@@ -925,6 +925,24 @@ img {
     display: flex;
     flex-direction: column;
     gap: 22px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.contact-form::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    box-shadow: 0 0 14px var(--accent);
+}
+
+.contact-form:focus-within {
+    border-color: rgba(255, 107, 0, 0.4);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4),
+                0 0 40px rgba(255, 107, 0, 0.08);
 }
 
 .form-row {
@@ -970,10 +988,15 @@ img {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: rgba(255, 107, 0, 0.6);
-    box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1),
-                0 0 14px rgba(255, 107, 0, 0.08);
-    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 107, 0, 0.7);
+    box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.12),
+                0 0 20px rgba(255, 107, 0, 0.15);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.form-group input:valid:not(:placeholder-shown),
+.form-group textarea:valid:not(:placeholder-shown) {
+    border-color: rgba(255, 107, 0, 0.5);
 }
 
 .contact-submit-btn {
@@ -1164,4 +1187,18 @@ img {
     .certificate-container h2 {
         font-size: 2rem;
     }
+}
+
+/*kontakt formular*/
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
 }

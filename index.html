@@ -455,24 +455,25 @@
         <section class="contact-section" id="contact-section">
             <div class="contact-container">
             <h2>Kontakt</h2>
-            <p>Ich freue mich darauf, von Ihnen zu hören! Sie können gerne das Kontaktformular nutzen</p>
-            <div class="Container-Kontakt-formular">
-                <form action="mailto:sandraedigin@outlook.com" method="post" enctype="text/plain">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">E-Mail:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Nachricht:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-
-                    <button type="submit">Senden</button>
+            <p>Ich freue mich darauf, von Ihnen zu hören! Schreiben Sie mir gerne eine Nachricht.</p>
+                <form class="contact-form" action="mailto:sandraedigin@outlook.com" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail</label>
+                            <input type="email" id="email" name="email" placeholder="ihre@email.de" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nachricht</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Ihre Nachricht..." required></textarea>
+                    </div>
+                    <button type="submit" class="contact-submit-btn">Nachricht senden &#9654;</button>
                 </form>
-                
             </div>
-            <div class="Container-Kontakt-cv"></div>
-            
         </section>
         <footer class="footer">
             <p>&copy; 2026 Sandra Edigin. Alle Rechte vorbehalten.</p>
