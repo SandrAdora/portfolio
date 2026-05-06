@@ -454,9 +454,9 @@
 
         <section class="contact-section" id="contact-section">
             <div class="contact-container">
-            <h2>Kontakt</h2>
-            <p>Ich freue mich darauf, von Ihnen zu hören! Schreiben Sie mir gerne eine Nachricht.</p>
-                <form class="contact-form" action="mailto:sandraedigin@outlook.com" method="post" enctype="text/plain">
+                <h2>Kontakt</h2>
+                <p>Ich freue mich darauf, von Ihnen zu hören! Sie können gerne das Kontaktformular nutzen.</p>
+                <form action="mailto:sandraedigin@outlook.com" method="post" enctype="text/plain" class="contact-form">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -464,14 +464,18 @@
                         </div>
                         <div class="form-group">
                             <label for="email">E-Mail</label>
-                            <input type="email" id="email" name="email" placeholder="ihre@email.de" required>
+                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
                         </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Betreff</label>
+                        <input type="text" id="subject" name="subject" placeholder="Worum geht es?" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Nachricht</label>
                         <textarea id="message" name="message" rows="6" placeholder="Ihre Nachricht..." required></textarea>
                     </div>
-                    <button type="submit" class="contact-submit-btn">Nachricht senden &#9654;</button>
+                    <button type="submit" class="contact-submit-btn">Senden</button>
                 </form>
             </div>
         </section>
